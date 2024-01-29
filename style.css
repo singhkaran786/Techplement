@@ -161,14 +161,18 @@
 
 
 /* Responsive Background Image */
+/* Responsive Background Image */
 @media (max-width: 767px) {
   .bgimage {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh; /* Set the height to 100% of the viewport height */
     margin-bottom: -2rem; /* Adjust the value as needed */
   }
 }
+
+
 
 
 
