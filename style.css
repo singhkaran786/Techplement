@@ -7,7 +7,7 @@
 .bgimage {
   height:100vh;
   background: url('images/heroImage.jpg');
-  background-size:cover;
+  background-size:contain;
   position:relative;
   background-repeat: no-repeat;
 }
@@ -162,18 +162,13 @@
 /* Responsive Background Image */
 @media (max-width: 767px) {
   .bgimage {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
   }
 
-  /* Responsive About Section */
-  #about {
-    padding-top: 2rem; /* Adjust the value as needed */
-    padding-bottom: 2rem; /* Adjust the value as needed */
-    margin-bottom: -2rem; /* Adjust the value as needed to reduce space */
-  }
+  
 
   
 }
