@@ -161,7 +161,7 @@
 
 @media (max-width: 767px) {
   .bgimage {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh; /* Set the height to 100% of the viewport height */
