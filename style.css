@@ -9,6 +9,7 @@
   background: url('images/heroImage.jpg');
   background-size:cover;
   position:relative;
+  background-repeat: no-repeat;
 }
 /* text css above hero image*/
 .hero_title {
