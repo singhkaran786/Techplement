@@ -159,8 +159,29 @@
 /* Responsive Background Image */
 
 
+/* Responsive Background Image */
 @media (max-width: 767px) {
   .bgimage {
-      background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-bottom: -2rem;
+  }
+
+  /* Responsive About Section */
+  #about {
+    padding-top: 2rem; /* Adjust the value as needed */
+    padding-bottom: 2rem; /* Adjust the value as needed */
+  }
+
+  /* Responsive Hero Section */
+  .hero_title {
+    font-size: 3rem; /* Adjust the value as needed */
+  }
+  .hero_desc {
+    font-size: 1.5rem; /* Adjust the value as needed */
   }
 }
+
+
