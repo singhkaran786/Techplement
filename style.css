@@ -175,13 +175,7 @@
     margin-bottom: -2rem; /* Adjust the value as needed to reduce space */
   }
 
-  /* Responsive Hero Section */
-  .hero_title {
-    font-size: 3rem; /* Adjust the value as needed */
-  }
-  .hero_desc {
-    font-size: 1.5rem; /* Adjust the value as needed */
-  }
+  
 }
 
 
