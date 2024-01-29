@@ -28,12 +28,15 @@
 }
 
 /* spacing on all sections */
- #about, #services, #portfolio, #contact {
+/* #about, #services, #portfolio, #contact {
   margin-top: 4rem;
   padding-top: 4rem;
-} 
+} */
 #contact {
   padding-bottom: 4rem;
+}
+#about {
+  margin-top: -2rem; /* Adjust the value as needed */
 }
 /* about section image css */
 .imageAboutPage {
