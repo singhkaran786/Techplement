@@ -161,6 +161,8 @@
 
 @media (max-width: 767px) {
   .bgimage {
-      background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
+
