@@ -35,9 +35,7 @@
 #contact {
   padding-bottom: 4rem;
 }
-#about {
-  margin-top: -2rem; /* Adjust the value as needed */
-}
+
 /* about section image css */
 .imageAboutPage {
   width: 100%;
@@ -162,10 +160,15 @@
 /* Responsive Background Image */
 
 
+/* Responsive Background Image */
 @media (max-width: 767px) {
   .bgimage {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin-bottom: -2rem; /* Adjust the value as needed */
   }
 }
+
+
 
