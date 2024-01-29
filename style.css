@@ -159,17 +159,20 @@
 }
 /* Responsive Background Image */
 
+/* Responsive Background Image */
 @media (max-width: 767px) {
   .bgimage {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    margin-bottom: -2rem; /* Adjust the value as needed */
+    height: 100vh;
   }
+
+  /* Responsive About Section */
   #about {
     padding-top: 2rem; /* Adjust the value as needed */
     padding-bottom: 2rem; /* Adjust the value as needed */
+    margin-bottom: -2rem; /* Adjust the value as needed to reduce space */
   }
 
   /* Responsive Hero Section */
@@ -180,6 +183,8 @@
     font-size: 1.5rem; /* Adjust the value as needed */
   }
 }
+
+
 
 
 
